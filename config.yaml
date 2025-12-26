@@ -1,0 +1,27 @@
+batch_size: 8
+classes:
+- 0_Normal
+- 1_Pneumonia
+data_dir: ./data_masked
+epochs: 70
+image_size: 224
+lr: 0.0001
+model_resnet: outputs/models/resnet50_best.pth
+model_txv_densenet: outputs/models/txv_densenet_best.pth
+num_workers: 0
+optimal_threshold: 0.64
+preprocessing:
+  border_margin_x: 0.08
+  border_margin_y_bottom: 0.88
+  border_margin_y_top: 0.12
+  clahe_clip_limit: 0.6
+  clahe_tile_size: 8
+  denoise_strength: 2
+  gamma_correction: 1.0
+  gaussian_sigma: 0.6
+  lung_crop_margin: 0.05
+  max_text_area_ratio: 0.02
+  sharpen_alpha: 1.1
+  sharpen_beta: -0.1
+  text_threshold: 240
+seed: 42

@@ -1,0 +1,24 @@
+============================================================
+EVALUATION REPORT
+============================================================
+
+Model: Ensemble (TXV DenseNet + ResNet50)
+Threshold: 0.6400
+F1-Score: 0.9799
+ROC-AUC: 0.9973
+
+Classification Report:
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+    0_Normal     0.9588    0.9831    0.9708       237
+ 1_Pneumonia     0.9937    0.9844    0.9890       640
+
+    accuracy                         0.9840       877
+   macro avg     0.9763    0.9837    0.9799       877
+weighted avg     0.9843    0.9840    0.9841       877
+
+
+Confusion Matrix:
+[[233   4]
+ [ 10 630]]

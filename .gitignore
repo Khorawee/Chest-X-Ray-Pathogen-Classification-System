@@ -1,0 +1,12 @@
+# --- ละเว้นข้อมูลขนาดใหญ่ (Dataset) ---
+data/
+data_masked/
+
+# --- ละเว้น Environment และ Cache (ไม่ควรเอาขึ้น Git) ---
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- หมายเหตุ: โฟลเดอร์ที่ไม่ได้ระบุข้างบนจะถูกเก็บขึ้น Git ทั้งหมด ---
+# ได้แก่: models, outputs, src, config.yaml, README.md, requirements.txt
