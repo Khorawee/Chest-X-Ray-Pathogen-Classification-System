@@ -53,9 +53,6 @@ data/
 ├── val/
 │   ├── 0_Normal/
 │   └── 1_Pneumonia/
-└── test/
-    ├── 0_Normal/
-    └── 1_Pneumonia/
 ```
 
 ### 2. Preprocess Images
